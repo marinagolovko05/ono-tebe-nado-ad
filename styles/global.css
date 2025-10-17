@@ -1,40 +1,39 @@
-
-
-/* Сбрасываем box-sizing для всех элементов и псевдоэлементов */
 *,
 *::before,
 *::after {
-  box-sizing: border-box; /* Теперь padding и border включены в ширину/высоту */
+  box-sizing: border-box;
 }
-
 
 body {
-  max-width: 1100px; /* Ограничиваем максимальную ширину контента */
-  margin: 0 auto;    /* Центрирование страницы по горизонтали */
-  font-family: 'Raleway', sans-serif; /* Основной шрифт */
-  background-color: #fff; /* Фоновый цвет страницы (по желанию) */
-  line-height: 1.6;       /* Удобная читаемость текста */
-  color: #000;             /* Цвет текста по умолчанию */
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
 }
 
-
-/* Сбрасываем отступы для всех заголовков, параграфов и списков */
-h1, h2, h3, h4, h5, h6,
-p, ul, ol, li, blockquote {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
   margin: 0;
   padding: 0;
 }
 
-/* Ссылки наследуют цвет родителя и не подчеркиваются по умолчанию */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-
-/* Картинки растягиваются на всю ширину родителя, сохраняют пропорции */
 img {
   width: 100%;
-  height: auto;
-  display: block; /* Убираем лишние пробелы под изображением */
+}
+
+button {
+  font: inherit;
 }
