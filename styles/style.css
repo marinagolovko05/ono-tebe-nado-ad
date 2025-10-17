@@ -1,3 +1,5 @@
+
+
 /*  полупрозрачный фон  */
 .overlay {
     position: absolute;
@@ -76,6 +78,7 @@
     background: url(../images/cover.jpg) center/cover no-repeat;
     padding: 162px 50px 50px 50px;
     position: relative;
+    overflow: hidden;
     margin-top: -4px;
 }
 
